@@ -1,0 +1,6 @@
+[user]
+	name = Gavin Dsouza
+	email = gavin18d@gmail.com
+	signingkey = 39AAADD03E175F31CC43FE48CEFD1A6427EE1213
+[commit]
+	gpgSign = true
