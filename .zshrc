@@ -8,7 +8,8 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -63,18 +64,18 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  # zsh-autosuggestions
+  zsh-autosuggestions
   zsh-syntax-highlighting
   
   docker
   adb
   sudo
-  zsh
   archlinux
   pip
   python
   systemd
   z
+  python
 
   # npm
   # gem
@@ -118,6 +119,9 @@ export LC_CTYPE=en_US.UTF-8
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# makeshift personal notes
+export NOTES=~/.notes
 
 # syntax highlighting has to be source'd in the end (last) according to README
 source  ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
