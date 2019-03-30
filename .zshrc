@@ -64,6 +64,7 @@
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+
   zsh-autosuggestions
   zsh-syntax-highlighting
   
@@ -77,11 +78,6 @@ plugins=(
   z
   python
 
-  # npm
-  # gem
-  # vscode
-  # virtualenvwrapper
-  # web-search 
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -114,6 +110,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias pipupgrade="pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U --user"
 
 export LC_CTYPE=en_US.UTF-8
 
