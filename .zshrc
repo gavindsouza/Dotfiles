@@ -117,6 +117,7 @@ export LC_CTYPE=en_US.UTF-8
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export JAVA_HOME="/usr/lib/jvm/default/"
 
 # makeshift personal notes
 export NOTES=~/.notes
