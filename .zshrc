@@ -77,7 +77,7 @@ plugins=(
   systemd
   z
   python
-
+  emoji
 )
 
 source $ZSH/oh-my-zsh.sh
