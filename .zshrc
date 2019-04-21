@@ -71,7 +71,6 @@ plugins=(
   docker
   adb
   sudo
-  archlinux
   pip
   python
   systemd
